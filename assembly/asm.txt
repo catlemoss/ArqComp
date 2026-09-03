@@ -1,0 +1,6 @@
+Montar o código (gerando um arquivo .o para sistemas de 64 bits):
+    nasm -f elf64 -o programa.o programa.asm
+Criar o executável usando o ld:
+    ld -o programa programa.o
+Executar o programa:
+    ./programa
